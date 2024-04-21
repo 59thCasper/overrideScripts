@@ -33,7 +33,7 @@ public static class GPUIManagerInitPatch
             Material replacementMaterial = planterMk23Prefab.GetComponent<Renderer>()?.material;  // test replave for mk2 material
             Material replacementMaterial2 = equi.GetComponent<Renderer>()?.material;      // test replace mode and texture
             MeshFilter replacementmesh = equi.GetComponent<MeshFilter>();
-            logMessage.AppendLine($" ******** Mesh {replacementmesh}");
+            logMessage.AppendLine($" ******** Mesh {replacementmesh}");  // just debug stuff
 
 
             if (replacementMaterial == null)
